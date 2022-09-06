@@ -1,0 +1,208 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --text-color: black;
+  --body-background-color: white;
+  --title-footer-background: #2f303a;
+  --change-color: #2196f3;
+  --link-title-color: #212121;
+  --link-ad-description-color: #757575;
+  --team-background: #f5f4fa;
+}
+
+body {
+  margin: 0;
+  font-family: "roboto", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  background-color: var(--body-background-color);
+  color: var(--text-color);
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section {
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+}
+
+a.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  text-align: right;
+  letter-spacing: 0.03em;
+  color: var(--change-color);
+  text-decoration: none;
+  padding-left: 30px;
+  margin: 0;
+}
+
+.link,
+.link-ad {
+  color: var(--link-title-color);
+  font-weight: 500px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.link-ad {
+  color: var(--link-ad-description-color);
+}
+
+.navi-menu,
+.navi-menu-address {
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  list-style: none;
+  font-weight: 500;
+  display: inline-block;
+  padding-left: 50px;
+  margin: 0;
+}
+
+.title {
+  background: var(--title-footer-background);
+}
+
+.title h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--body-background-color);
+}
+
+#button-index {
+  background: var(--change-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: var(--body-background-color);
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.focusing {
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--link-title-colorcolor);
+}
+
+.description {
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--link-ad-description-color);
+}
+
+.service {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--link-title-colorcolor);
+}
+
+.images {
+  width: 374px;
+  height: 324;
+  list-style: none;
+}
+
+#team h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--link-title-color);
+}
+
+#team {
+  background: var(--team-background);
+}
+
+.mexico,
+.footer {
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--body-background-color);
+}
+
+.footer {
+  color: rgba(255, 255, 255, 0.6);
+  background-color: var(--title-footer-background);
+  text-decoration: none;
+}
+
+.buttons {
+  border-radius: 4px;
+  background: #f5f4fa;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+.none-style {
+  list-style: none;
+  font-weight: 500;
+}
+
+.buttons:hover {
+  color: var(--body-background-color);
+}
+
+a:hover {
+  color: var(--change-color);
+}
+
+button[type="button"]:hover {
+  background-color: var(--change-color);
+}
+
+.address {
+  font-style: normal;
+  background: var(--title-footer-background);
+}
+
+footer p {
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--body-background-color);
+}
+
+.social-links {
+  list-style: none;
+}
