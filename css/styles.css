@@ -225,6 +225,9 @@ button[type="button"]:hover {
 .adjust-images .none-style {
   border: 1px solid var(--border-color);
   cursor: pointer;
+  margin-top: 25px;
+  margin-left: -15px;
+  margin-right: auto;
 }
 
 .address {
