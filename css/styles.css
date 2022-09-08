@@ -224,8 +224,7 @@ button[type="button"]:hover {
 
 .adjust-images .none-style {
   border: 1px solid var(--border-color);
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
 }
 
 .address {
@@ -260,4 +259,15 @@ article {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.adjust-images {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.adjust-images .none-style:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
