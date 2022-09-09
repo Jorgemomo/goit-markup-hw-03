@@ -287,6 +287,13 @@ article {
   flex-direction: column;
 }
 
+.article {
+  width: 1170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .details {
   display: flex;
   justify-content: center;
