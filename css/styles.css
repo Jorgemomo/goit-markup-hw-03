@@ -37,7 +37,8 @@ body {
 
 #header {
   display: flex;
-  border: 1px solid var(--border-color);
+  padding: 15px;
+  /*border: 1px solid var(--border-color);*/
 }
 
 .nav {
@@ -55,6 +56,9 @@ a.logo {
   text-decoration: none;
   padding-left: 110px;
   margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .link,
@@ -77,14 +81,14 @@ a.logo {
   letter-spacing: 0.02em;
   list-style: none;
   font-weight: 500;
-  padding-left: 25px;
+  padding-left: 50px;
 }
 
 .navi-menu-address {
   display: flex;
   position: relative;
   left: 200px;
-  padding-left: 25px;
+  padding-left: 20px;
 }
 
 .title {
@@ -225,31 +229,57 @@ button[type="button"]:hover {
 .adjust-images .none-style {
   border: 1px solid var(--border-color);
   cursor: pointer;
-  margin-top: 25px;
-  margin-left: -15px;
-  margin-right: auto;
+  margin-top: 30px;
+}
+
+.logo-f {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  text-align: right;
+  letter-spacing: 0.03em;
+  color: var(--change-color);
+  text-decoration: none;
+  padding-left: 110px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  display: flex;
 }
 
 .address {
   font-style: normal;
   background: var(--title-footer-background);
+  height: 230px;
 }
 
 footer p {
+  position: relative;
+  left: 120px;
   font-weight: 700;
   line-height: 16px;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: var(--body-background-color);
+  margin: 0;
+}
+
+.text-social-links {
+  position: relative;
+  left: 415px;
+  bottom: 125px;
 }
 
 .social-links {
   list-style: none;
+  position: relative;
+  bottom: 125px;
+  right: 145px;
 }
 
 ul {
   display: flex;
   justify-content: center;
+  padding: 0;
 }
 
 article {
@@ -266,7 +296,7 @@ article {
 
 .adjust-images {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
