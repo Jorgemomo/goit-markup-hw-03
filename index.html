@@ -16,51 +16,52 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://necolas.github.io/normalize.css/latest/normalize.css"
-    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <div class="container">
-      <header id="header">
-        <nav class="nav">
-          <a class="logo" href="./index.html">WebStudio</a>
-          <ul>
-            <li class="navi-menu">
-              <a class="link" href="./index.html">Estudio</a>
-            </li>
-            <li class="navi-menu">
-              <a class="link" href="./portfolio.html">Portafolio</a>
-            </li>
-            <li class="navi-menu"><a class="link" href="#">Contactos</a></li>
-          </ul>
-        </nav>
+    <header>
+      <div class="container">
+        <div class="header_off">
+          <nav class="nav">
+            <a class="logo" href="./index.html">WebStudio</a>
+            <ul>
+              <li class="navi-menu">
+                <a class="link" href="./index.html">Estudio</a>
+              </li>
+              <li class="navi-menu">
+                <a class="link" href="./portfolio.html">Portafolio</a>
+              </li>
+              <li class="navi-menu"><a class="link" href="#">Contactos</a></li>
+            </ul>
+          </nav>
 
-        <ul>
-          <li class="navi-menu-address">
-            <a class="link-ad" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="navi-menu-address">
-            <a class="link-ad" href="tel:+525555296000">+52 55 5529 6000</a>
-          </li>
-        </ul>
-      </header>
-    </div>
+          <ul class="left-header">
+            <li class="navi-menu-address">
+              <a class="link-ad" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="navi-menu-address">
+              <a class="link-ad" href="tel:+525555296000">+52 55 5529 6000</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
     <main>
       <section>
-        <div class="title">
-          <h1>SOLUCIONES EFICACES PARA<br />SU NEGOCIO</h1>
-          <button type="button" id="button-index">
-            Solicite nuestro servicio
-          </button>
+        <div class="banner">
+          <div class="container">
+            <div class="title">
+              <h1>SOLUCIONES EFICACES PARA<br />SU NEGOCIO</h1>
+              <button type="button" id="button-index">
+                Solicite nuestro servicio
+              </button>
+            </div>
+          </div>
         </div>
       </section>
-
-      <section class="section details">
+      <section class="section container">
         <div class="article">
           <article>
             <h3 class="focusing">ATENCIÓN A LOS DETALLES</h3>
@@ -95,96 +96,100 @@
       </section>
 
       <section class="section">
-        <h2 class="service">A qué nos dedicamos</h2>
-        <ul>
-          <li class="images">
-            <img src="./images/working.jpg" alt="working" width="373" />
-          </li>
-          <li class="images">
-            <img src="./images/texting.jpg" alt="texting" width="373" />
-          </li>
-          <li class="images">
-            <img src="./images/graphic.jpg" alt="graphic" width="373" />
-          </li>
-        </ul>
-      </section>
-
-      <section>
-        <div id="team">
-          <h2>Nuestro Equipo</h2>
+        <div class="job">
+          <h2 class="service">A qué nos dedicamos</h2>
           <ul>
-            <li>
-              <figure class="team">
-                <img
-                  src="./images/andrescubo.jpg"
-                  alt="Andrés Cubo"
-                  width="180"
-                />
-                <figcaption>
-                  <h3>Andrés Cubo</h3>
-                  Diseñador de Productos
-                </figcaption>
-              </figure>
+            <li class="images">
+              <img src="./images/working.jpg" alt="working" width="374" />
             </li>
-            <li>
-              <figure class="team">
-                <img
-                  src="./images/carlapalacios.jpg"
-                  alt="Carla Palacios"
-                  width="180"
-                />
-                <figcaption>
-                  <h3>Carla Palacios</h3>
-                  Desarrolladora Frontend
-                </figcaption>
-              </figure>
+            <li class="images">
+              <img src="./images/texting.jpg" alt="texting" width="374" />
             </li>
-            <li>
-              <figure class="team">
-                <img
-                  src="./images/mariodorado.jpg"
-                  alt="Mario Dorado"
-                  width="180"
-                />
-                <figcaption>
-                  <h3>Mario Dorado</h3>
-                  Marketing
-                </figcaption>
-              </figure>
-            </li>
-            <li>
-              <figure class="team">
-                <img
-                  src="./images/pablomijangos.jpg"
-                  alt="Pablo Mijangos"
-                  width="180"
-                />
-                <figcaption>
-                  <h3>Pablo Mijangos</h3>
-                  Diseñador IU
-                </figcaption>
-              </figure>
+            <li class="images">
+              <img src="./images/graphic.jpg" alt="graphic" width="374" />
             </li>
           </ul>
         </div>
       </section>
+      <section class="banner-team">
+        <div class="container">
+          <div id="team">
+            <h2>Nuestro Equipo</h2>
+            <ul>
+              <li>
+                <figure class="team">
+                  <img
+                    src="./images/andrescubo.jpg"
+                    alt="Andrés Cubo"
+                    width="270Ppx"
+                  />
+                  <figcaption>
+                    <h3>Andrés Cubo</h3>
+                    <p>Diseñador de Productos</p>
+                  </figcaption>
+                </figure>
+              </li>
+              <li>
+                <figure class="team">
+                  <img
+                    src="./images/carlapalacios.jpg"
+                    alt="Carla Palacios"
+                    width="270Ppx"
+                  />
+                  <figcaption>
+                    <h3>Carla Palacios</h3>
+                    <p>Desarrolladora Frontend</p>
+                  </figcaption>
+                </figure>
+              </li>
+              <li>
+                <figure class="team">
+                  <img
+                    src="./images/mariodorado.jpg"
+                    alt="Mario Dorado"
+                    width="270Ppx"
+                  />
+                  <figcaption>
+                    <h3>Mario Dorado</h3>
+                    <p>Marketing</p>
+                  </figcaption>
+                </figure>
+              </li>
+              <li>
+                <figure class="team">
+                  <img
+                    src="./images/pablomijangos.jpg"
+                    alt="Pablo Mijangos"
+                    width="270Ppx"
+                  />
+                  <figcaption>
+                    <h3>Pablo Mijangos</h3>
+                    <p>Diseñador IU</p>
+                  </figcaption>
+                </figure>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </main>
-
     <footer>
-      <address class="address">
-        <a class="logo-f" href="./index.html">WebStudio</a>
-        <p class="mexico">
-          Calz. Ticomán 500, ciudad de<br />México, CDMX México
-        </p>
-        <p>
-          <a class="footer" href="mailto:info@devstudio.com"
-            >info@example.com</a
-          >
-        </p>
-        <p>
-          <a class="footer" href="tel:+525555296000">+52 55 5529 6000</a>
-        </p>
-      </address>
+      <div class="banner-footer">
+        <address class="container address">
+          <a class="logo" href="./index.html">WebStudio</a>
+          <p class="mexico">
+            Calz. Ticomán 500, ciudad de<br />México, CDMX México
+          </p>
+          <p>
+            <a class="footer" href="mailto:info@devstudio.com"
+              >info@example.com</a
+            >
+          </p>
+          <p>
+            <a class="footer" href="tel:+525555296000">+52 55 5529 6000</a>
+          </p>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
