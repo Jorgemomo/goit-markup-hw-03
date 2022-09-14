@@ -11,23 +11,16 @@
   --link-title-color: #212121;
   --link-ad-description-color: #757575;
   --team-background: #f5f4fa;
-  --border-color: #ececec;
+  --border-color: #eeeeee;
 }
 
 body {
   box-sizing: border-box;
-  margin: 0 auto;
-  padding: 0;
-  width: 1600px;
   font-family: "roboto", sans-serif;
   font-style: normal;
   font-size: 14px;
   background-color: var(--body-background-color);
   color: var(--text-color);
-}
-
-header {
-  width: 1600px;
 }
 
 .container {
@@ -92,13 +85,8 @@ header {
   list-style: none;
 }
 
-main {
-  width: 1600px;
-}
-
 .banner {
   background: var(--title-footer-background);
-  width: 1600px;
   height: 600px;
 }
 
@@ -183,7 +171,6 @@ main {
 
 .banner-team {
   background: var(--team-background);
-  width: 1600px;
 }
 
 #team {
@@ -229,9 +216,7 @@ main {
 }
 
 .banner-footer {
-  width: 1600px;
   background: var(--title-footer-background);
-  height: 252px;
 }
 
 .address {
@@ -315,7 +300,6 @@ button[type="button"]:hover {
 
 .adjust-images.applications {
   width: 370px;
-  border: 1px solid var(--border-color);
   margin-top: 30px;
   margin-left: 15px;
   margin-top: 15px;
@@ -333,6 +317,12 @@ button[type="button"]:hover {
   padding-left: 24px;
   padding-bottom: 10px;
   padding-top: 30px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.adjust-images figcaption p.font {
+  font-weight: 700;
+  font-size: 16px;
 }
 
 .adjust-images figcaption p {
